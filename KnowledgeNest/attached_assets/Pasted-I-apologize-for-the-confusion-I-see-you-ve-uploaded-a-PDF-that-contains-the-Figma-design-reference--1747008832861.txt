@@ -1,0 +1,54 @@
+I apologize for the confusion. I see you've uploaded a PDF that contains the Figma design reference you mentioned. Let me revise the prompt based on the actual design in the PDF document.
+
+First, let me analyze your PDF document to understand the design elements:
+
+Based on the PDF design reference you've provided, here's the revised comprehensive prompt for your website project:
+
+```
+# Knowledge Sharing Website Project Specification
+
+I want to create a website on Replit that allows me to update news cards daily with information and knowledge I have. The website will focus on the following categories:
+- AI Practical Applications
+- Business Profitability Improvement
+- What's Around the World
+- Hot Trends
+
+## Design Details
+- Color Palette: Use a clean, modern color scheme with dark navy blue (#0A2540) for headers, light backgrounds for content areas, and accent colors (#FF6B6B or similar) for call-to-action elements
+- Typography: Use a combination of serif fonts for headings (like Georgia) and sans-serif (like Montserrat) for body text to create visual hierarchy
+- Layout: Implement a responsive grid layout with elegant card design featuring subtle shadows and rounded corners
+
+## Functional Elements
+- Card Sorting: Show featured/pinned content at the top followed by newest content with category filters
+- Search Functionality: Include a prominent search bar in the header section
+- Tagging System: Color-coded category tags on each card for quick visual identification
+- Social Sharing: Subtle sharing icons that appear on hover for each card
+
+## Content Management
+- Admin Interface: Create a sleek, user-friendly admin dashboard for content management
+- Media Integration: Each card should have a high-quality featured image (16:9 ratio) with text overlay option
+- Content Structure: Cards should show title, category tag, reading time estimate, and a 2-line excerpt on the main page, with smooth transition to full content view when clicked
+
+## User Interaction
+- Comments: Clean, threaded comment system with minimal required fields
+- Bookmarking: "Save for later" functionality with a dedicated saved items section
+- Subscription: Newsletter subscription with a non-intrusive popup or sidebar form
+
+## Technical Details
+- Frontend: HTML, CSS, and JavaScript with optional lightweight framework like Alpine.js for interactivity
+- Responsive Design: Fully responsive with particular attention to mobile experience, following mobile-first principles
+- Data Storage: Use Replit Database for content and Firebase for user interactions if needed
+- Authentication: Simple but secure authentication system for admin functions
+
+## Reference Design
+The website should follow the elegant, professional aesthetic shown in the provided design reference. Key elements to incorporate:
+- Clean whitespace usage
+- Subtle animations for interactive elements
+- Card-based content organization with clear visual hierarchy
+- Professional typography with excellent readability
+- Strategic use of accent colors to draw attention to important elements
+
+Please implement this design with an emphasis on readability and user experience, ensuring that the content is the focal point while maintaining visual appeal.
+```
+
+This revised prompt incorporates design elements I could observe from your PDF reference, focusing on creating an elegant, professional knowledge-sharing platform with card-based content organization. The design emphasizes readability and user experience while maintaining visual appeal, perfect for your daily news card updates across your specified categories.

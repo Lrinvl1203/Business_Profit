@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Neutral Colors */
+  --black: 215 28% 17%;        /* #263238 */
+  --dark-grey: 0 0% 30%;       /* #4D4D4D */
+  --grey: 0 0% 45%;            /* #717171 */
+  --light-grey: 220 9% 58%;    /* #8993E */
+  --grey-blue: 210 16% 93%;    /* #A8BED1 */
+  --silver: 0 0% 95%;          /* #F5F7FA */
+  --white: 0 0% 100%;          /* #FFFFFF */
+  
+  /* Scheme Colors */
+  --primary: 120 34% 45%;      /* #48C858 - Main green */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 215 28% 17%;    /* #263238 - Dark blue/black */
+  --secondary-foreground: 0 0% 100%;
+  --info: 202 100% 50%;        /* #2196F3 - Blue */
+  --info-foreground: 0 0% 100%;
+  
+  /* Green Shades */
+  --shade-1: 120 38% 41%;      /* #43A046 */
+  --shade-2: 119 35% 38%;      /* #388E3B */
+  --shade-3: 122 39% 35%;      /* #237D31 */
+  --shade-4: 124 55% 24%;      /* #1B5E1F */
+  --shade-5: 122 47% 18%;      /* #103E13 */
+  
+  /* Green Tints */
+  --tint-1: 120 33% 49%;       /* #66BB6A */
+  --tint-2: 115 39% 58%;       /* #81C784 */
+  --tint-3: 114 27% 70%;       /* #A5D6A7 */
+  --tint-4: 120 25% 81%;       /* #C8E6C9 */
+  --tint-5: 120 33% 93%;       /* #E8F5E9 */
+  
+  /* Action Colors */
+  --warning: 43 100% 55%;      /* #FBC02D */
+  --error: 4 90% 58%;          /* #E53935 */
+  --success: 122 39% 49%;      /* #2E7D32 */
+  
+  /* System */
+  --background: 0 0% 100%;     /* White */
+  --foreground: 215 28% 17%;   /* Dark text */
+  --muted: 210 16% 93%;        /* Grey blue */
+  --muted-foreground: 0 0% 45%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 215 28% 17%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 28% 17%;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --destructive: 4 90% 58%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 120 34% 45%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 215 28% 12%;
+  --foreground: 0 0% 98%;
+  --muted: 215 28% 25%;
+  --muted-foreground: 215 28% 70%;
+  --popover: 215 28% 12%;
+  --popover-foreground: 0 0% 98%;
+  --card: 215 28% 12%;
+  --card-foreground: 0 0% 98%;
+  --border: 215 28% 25%;
+  --input: 215 28% 25%;
+  --primary: 120 34% 45%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 215 28% 20%;
+  --secondary-foreground: 0 0% 98%;
+  --info: 202 100% 50%;
+  --info-foreground: 0 0% 98%;
+  --destructive: 4 90% 48%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 120 34% 40%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-[#F8F9FA] text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+  
+  /* Typography based on attached design */
+  h1 {
+    @apply text-[64px] leading-[76px];
+  }
+  
+  h2 {
+    @apply text-[36px] leading-[44px];
+  }
+  
+  h3 {
+    @apply text-[28px] leading-[36px];
+  }
+  
+  h4 {
+    @apply text-[20px] leading-[28px];
+  }
+}
+
+@layer components {
+  .category-ai {
+    @apply bg-[#43A046]; /* Shade 1 */
+  }
+  .category-business {
+    @apply bg-[#388E3B]; /* Shade 2 */
+  }
+  .category-world {
+    @apply bg-[#237D31]; /* Shade 3 */
+  }
+  .category-trends {
+    @apply bg-[#1B5E1F]; /* Shade 4 */
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg;
+  }
+  
+  .btn-primary {
+    @apply bg-[#48C858] text-white font-medium py-2 px-4 rounded-md hover:bg-[#43A046] transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent border border-[#263238] text-[#263238] font-medium py-2 px-4 rounded-md hover:bg-[#263238] hover:text-white transition-colors;
+  }
+  
+  .btn-tertiary {
+    @apply bg-transparent text-[#48C858] font-medium py-2 px-4 rounded-md hover:text-[#43A046] transition-colors;
+  }
+  
+  .grid-card-container {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4;
+  }
+  
+  .grid-card {
+    @apply bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl cursor-pointer;
+  }
+  
+  .modal-open {
+    @apply overflow-hidden;
+  }
+  
+  .donation-button {
+    @apply fixed bottom-8 right-8 bg-[#48C858] text-white rounded-full p-3 shadow-lg z-50 hover:bg-[#43A046] transition-colors;
+  }
+}

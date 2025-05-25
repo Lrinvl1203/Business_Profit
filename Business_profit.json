@@ -1,0 +1,933 @@
+[
+  {
+    "sheet": "시트1",
+    "cell": "A1",
+    "value": "매출",
+    "formula": "",
+    "color": "FFC27BA0"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C2",
+    "value": "Case2",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D2",
+    "value": "Case 3",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C3",
+    "value": "0.1",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D3",
+    "value": "0.2",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "T4",
+    "value": "투자비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A5",
+    "value": "항목",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B5",
+    "value": "Case1",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C5",
+    "value": "Case 2",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D5",
+    "value": "Case 3",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F5",
+    "value": "항목",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G5",
+    "value": "금액 1",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H5",
+    "value": "금액 2",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I5",
+    "value": "금액 3",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "K5",
+    "value": "항목",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "L5",
+    "value": "금액",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "N5",
+    "value": "주중/주말",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "O5",
+    "value": "일수",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "Q5",
+    "value": "보증금",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "R5",
+    "value": "금액",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "T5",
+    "value": "항목",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "U5",
+    "value": "금액",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A6",
+    "value": "평단가 (잔당 평균)",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B6",
+    "value": "3000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C6",
+    "value": "=B6",
+    "formula": "=B6",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D6",
+    "value": "=B6",
+    "formula": "=B6",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F6",
+    "value": "총지출",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G6",
+    "value": "=SUM(G7:G14)",
+    "formula": "=SUM(G7:G14)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H6",
+    "value": "=SUM(H7:H14)",
+    "formula": "=SUM(H7:H14)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I6",
+    "value": "=SUM(I7:I14)",
+    "formula": "=SUM(I7:I14)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "K6",
+    "value": "총 임대료+이자",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "L6",
+    "value": "=SUM(L7:L9)",
+    "formula": "=SUM(L7:L9)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "N6",
+    "value": "주일",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "O6",
+    "value": "22",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "Q6",
+    "value": "상가 보증금",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "R6",
+    "value": "30000000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "T6",
+    "value": "머신",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "U6",
+    "value": "35000000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A7",
+    "value": "주중 평균 매출 잔수",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B7",
+    "value": "50",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C7",
+    "value": "=$B7+($B7*C$3)",
+    "formula": "=$B7+($B7*C$3)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D7",
+    "value": "=$B7+($B7*D$3)",
+    "formula": "=$B7+($B7*D$3)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F7",
+    "value": "원재료비/잔당",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G7",
+    "value": "800",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H7",
+    "value": "=G7",
+    "formula": "=G7",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I7",
+    "value": "=G7",
+    "formula": "=G7",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "K7",
+    "value": "상가 임대료",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "L7",
+    "value": "1000000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "N7",
+    "value": "주말",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "O7",
+    "value": "8",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "Q7",
+    "value": "대출 이자",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "R7",
+    "value": "0.05",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "T7",
+    "value": "인테리어",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "U7",
+    "value": "20000000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A8",
+    "value": "주말 평균 매출 잔수",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B8",
+    "value": "=B7*1.1",
+    "formula": "=B7*1.1",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C8",
+    "value": "=$B8+($B8*C$3)",
+    "formula": "=$B8+($B8*C$3)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D8",
+    "value": "=$B8+($B8*D$3)",
+    "formula": "=$B8+($B8*D$3)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F8",
+    "value": "총 재료비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G8",
+    "value": "=G7*(B9)",
+    "formula": "=G7*(B9)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H8",
+    "value": "=H7*(C9)",
+    "formula": "=H7*(C9)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I8",
+    "value": "=I7*(D9)",
+    "formula": "=I7*(D9)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "K8",
+    "value": "상가보증금 대출이자",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "L8",
+    "value": "=R6*R7/12",
+    "formula": "=R6*R7/12",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "T8",
+    "value": "가터 투자비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "U8",
+    "value": "10000000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A9",
+    "value": "총 잔수",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B9",
+    "value": "=(B7*$O$6)+(B8*$O$7)",
+    "formula": "=(B7*$O$6)+(B8*$O$7)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C9",
+    "value": "=(C7*$O$6)+(C8*$O$7)",
+    "formula": "=(C7*$O$6)+(C8*$O$7)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D9",
+    "value": "=(D7*$O$6)+(D8*$O$7)",
+    "formula": "=(D7*$O$6)+(D8*$O$7)",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F9",
+    "value": "머신 리스 이자",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G9",
+    "value": "0",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H9",
+    "value": "=G9",
+    "formula": "=G9",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I9",
+    "value": "=G9",
+    "formula": "=G9",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "K9",
+    "value": "창업비용 대출이자",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "L9",
+    "value": "0",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A10",
+    "value": "총 매출",
+    "formula": "",
+    "color": "FFCDD9D4"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B10",
+    "value": "=B6*B9",
+    "formula": "=B6*B9",
+    "color": "FFCDD9D4"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C10",
+    "value": "=C6*C9",
+    "formula": "=C6*C9",
+    "color": "FFCDD9D4"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D10",
+    "value": "=D6*D9",
+    "formula": "=D6*D9",
+    "color": "FFCDD9D4"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F10",
+    "value": "머신 관리비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G10",
+    "value": "50000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H10",
+    "value": "=G10",
+    "formula": "=G10",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I10",
+    "value": "=G10",
+    "formula": "=G10",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F11",
+    "value": "기타 관리비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G11",
+    "value": "50000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H11",
+    "value": "=G11",
+    "formula": "=G11",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I11",
+    "value": "=G11",
+    "formula": "=G11",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F12",
+    "value": "CCTV 및 음향",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G12",
+    "value": "50000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H12",
+    "value": "=G12",
+    "formula": "=G12",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I12",
+    "value": "=G12",
+    "formula": "=G12",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F13",
+    "value": "수도광열비",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G13",
+    "value": "200000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H13",
+    "value": "=G13",
+    "formula": "=G13",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I13",
+    "value": "=G13",
+    "formula": "=G13",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "F14",
+    "value": "인터넷",
+    "formula": "",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "G14",
+    "value": "40000",
+    "formula": "",
+    "color": "FFFFFF00"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "H14",
+    "value": "=G14",
+    "formula": "=G14",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "I14",
+    "value": "=G14",
+    "formula": "=G14",
+    "color": "FFFFFFFF"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A17",
+    "value": "수익",
+    "formula": "",
+    "color": "FFC27BA0"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A18",
+    "value": "순이익 계산",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B18",
+    "value": "Case 1",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C18",
+    "value": "Case 2",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D18",
+    "value": "Case 3",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A19",
+    "value": "월 매출",
+    "formula": "",
+    "color": "FFCCCCCC"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B19",
+    "value": "=B10",
+    "formula": "=B10",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C19",
+    "value": "=C10",
+    "formula": "=C10",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D19",
+    "value": "=D10",
+    "formula": "=D10",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A20",
+    "value": "월 총 지출",
+    "formula": "",
+    "color": "FFCCCCCC"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B20",
+    "value": "=G6+$L$6",
+    "formula": "=G6+$L$6",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C20",
+    "value": "=H6+$L$6",
+    "formula": "=H6+$L$6",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D20",
+    "value": "=I6+$L$6",
+    "formula": "=I6+$L$6",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A21",
+    "value": "월 총 순이익",
+    "formula": "",
+    "color": "FFCCCCCC"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B21",
+    "value": "=B19-B20",
+    "formula": "=B19-B20",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C21",
+    "value": "=C19-C20",
+    "formula": "=C19-C20",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D21",
+    "value": "=D19-D20",
+    "formula": "=D19-D20",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A23",
+    "value": "투자회수",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B23",
+    "value": "Case 1",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C23",
+    "value": "Case 2",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D23",
+    "value": "Case 3",
+    "formula": "",
+    "color": "FF356854"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A24",
+    "value": "총투자비",
+    "formula": "",
+    "color": "FFD9D9D9"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B24",
+    "value": "=$U$6+$U$7+$U$8",
+    "formula": "=$U$6+$U$7+$U$8",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C24",
+    "value": "=$U$6+$U$7+$U$8",
+    "formula": "=$U$6+$U$7+$U$8",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D24",
+    "value": "=$U$6+$U$7+$U$8",
+    "formula": "=$U$6+$U$7+$U$8",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A25",
+    "value": "회수 월수",
+    "formula": "",
+    "color": "FFD9D9D9"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B25",
+    "value": "=B24/B21",
+    "formula": "=B24/B21",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C25",
+    "value": "=C24/C21",
+    "formula": "=C24/C21",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D25",
+    "value": "=D24/D21",
+    "formula": "=D24/D21",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "A26",
+    "value": "회수 년/월",
+    "formula": "",
+    "color": "FFD9D9D9"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "B26",
+    "value": "=INT(B25/12)&\"년 \"&ROUND(MOD(B25,12),0)&\"개월\"",
+    "formula": "=INT(B25/12)&\"년 \"&ROUND(MOD(B25,12),0)&\"개월\"",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "C26",
+    "value": "=INT(C25/12)&\"년 \"&ROUND(MOD(C25,12),0)&\"개월\"",
+    "formula": "=INT(C25/12)&\"년 \"&ROUND(MOD(C25,12),0)&\"개월\"",
+    "color": "00000000"
+  },
+  {
+    "sheet": "시트1",
+    "cell": "D26",
+    "value": "=INT(D25/12)&\"년 \"&ROUND(MOD(D25,12),0)&\"개월\"",
+    "formula": "=INT(D25/12)&\"년 \"&ROUND(MOD(D25,12),0)&\"개월\"",
+    "color": "00000000"
+  }
+]

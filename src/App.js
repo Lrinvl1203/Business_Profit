@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Container, Grid, Paper, Typography, TextField, Box, Button, Slider } from '@mui/material';
+import { Container, Grid, Paper, Typography, TextField, Box, Button } from '@mui/material';
 import { Bar, Line } from 'react-chartjs-2';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
@@ -99,20 +99,13 @@ function App() {
 
   useEffect(() => {
     calculateResults();
-  }, [inputs, scenarios]);
+  }, [inputs, scenarios, calculateResults]);
 
   const handleInputChange = (field) => (event) => {
     const value = event.target.value === '' ? '' : Number(event.target.value);
     setInputs({
       ...inputs,
       [field]: value,
-    });
-  };
-
-  const handleScenarioChange = (field) => (event, newValue) => {
-    setScenarios({
-      ...scenarios,
-      [field]: newValue,
     });
   };
 
@@ -195,6 +188,9 @@ function App() {
 
   const chartOptions = {
     responsive: true,
+    animation: {
+      duration: 800,
+    },
     plugins: {
       legend: {
         position: 'top',

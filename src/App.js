@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Container, Grid, Paper, Typography, TextField, Box, Button } from '@mui/material';
 import { Bar, Line } from 'react-chartjs-2';
 import html2canvas from 'html2canvas';
@@ -68,7 +68,7 @@ function App() {
     }
   };
 
-  const calculateResults = () => {
+  const calculateResults = useCallback(() => {
     // Case 1 (기본)
     const case1 = {
       월매출: inputs.평단가 * ((inputs.일매출수 * 22) + (inputs.일매출수 * 1.1 * 8)),
@@ -95,11 +95,11 @@ function App() {
     };
 
     setResults({ case1, case2, case3 });
-  };
+  }, [inputs, scenarios]);
 
   useEffect(() => {
     calculateResults();
-  }, [inputs, scenarios, calculateResults]);
+  }, [calculateResults]);
 
   const handleInputChange = (field) => (event) => {
     const value = event.target.value === '' ? '' : Number(event.target.value);

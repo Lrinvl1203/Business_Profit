@@ -1,3 +1,4 @@
+// Temporary change to trigger Netlify deploy
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { Container, Grid, Paper, Typography, TextField, Box, Button } from '@mui/material';
 import { Bar, Line } from 'react-chartjs-2';

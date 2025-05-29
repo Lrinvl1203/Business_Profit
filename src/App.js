@@ -69,11 +69,6 @@ function AppContent() {
     }
   };
 
-  // 차트 데이터는 환율 적용 없이 원본 숫자 사용
-  const formatChartNumber = (num) => {
-    return num;
-  };
-
   const getEmoji = (years, months) => {
     const totalMonths = years * 12 + months;
     const targetMonths = 24; // 2년

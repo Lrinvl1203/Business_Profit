@@ -25,3 +25,5 @@ yarn-error.log*
 .cache
 node_modules/.cache
 *.pack 
+# Local Netlify folder
+.netlify

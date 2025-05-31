@@ -4,6 +4,7 @@ import { Container, Grid, Paper, Typography, TextField, Box, Button } from '@mui
 import { Bar, Line } from 'react-chartjs-2';
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
+import { StagewiseToolbar } from '@stagewise/toolbar-react';
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -627,8 +628,13 @@ function AppContent() {
 }
 
 function App() {
+  const stagewiseConfig = {
+    plugins: []
+  };
+
   return (
     <LanguageProvider>
+      {process.env.NODE_ENV === 'development' && <StagewiseToolbar config={stagewiseConfig} />}
       <AppContent />
     </LanguageProvider>
   );

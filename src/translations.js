@@ -1,6 +1,6 @@
 export const translations = {
   ko: {
-    title: '비즈니스 수익성 분석',
+    title: '사업 수익성 분석',
     saveAsPDF: 'PDF로 저장',
     saveAsJPG: 'JPG로 저장',
     salesIncreaseScenario: '매출 증대 시나리오',
@@ -31,6 +31,17 @@ export const translations = {
       loanPrincipal: '대출원금',
       loanInterest: '대출이자',
       initialInvestment: '초기투자금'
+    },
+    serviceIntro: {
+      title: '사업 수익성 분석 서비스',
+      description: '당신의 사업 아이디어가 실제로 수익을 낼 수 있는지 분석해보세요. 평균 단가, 일일 판매량, 원재료비, 관리비, 대출 조건 등 다양한 요소를 고려하여 사업의 수익성을 예측합니다.',
+      featuresTitle: '주요 기능',
+      features: [
+        '다양한 시나리오 기반 분석',
+        '월별 매출 및 지출 예측',
+        '투자 회수 기간 계산',
+        'PDF/JPG 형식의 보고서 생성'
+      ]
     }
   },
   en: {
@@ -65,6 +76,17 @@ export const translations = {
       loanPrincipal: 'Loan Principal',
       loanInterest: 'Loan Interest',
       initialInvestment: 'Initial Investment'
+    },
+    serviceIntro: {
+      title: 'Business Profitability Analysis Service',
+      description: 'Analyze whether your business idea can actually generate profit. Predict business profitability by considering various factors such as average price, daily sales, material costs, management costs, and loan conditions.',
+      featuresTitle: 'Key Features',
+      features: [
+        'Analysis based on various scenarios',
+        'Monthly sales and expense predictions',
+        'Investment recovery period calculation',
+        'Report generation in PDF/JPG format'
+      ]
     }
   },
   es: {
@@ -99,6 +121,17 @@ export const translations = {
       loanPrincipal: 'Principal del Préstamo',
       loanInterest: 'Interés del Préstamo',
       initialInvestment: 'Inversión Inicial'
+    },
+    serviceIntro: {
+      title: 'Servicio de Análisis de Rentabilidad Empresarial',
+      description: 'Analice si su idea de negocio puede generar beneficios reales. Prediga la rentabilidad del negocio considerando varios factores como precio promedio, ventas diarias, costos de materiales, costos de gestión y condiciones de préstamo.',
+      featuresTitle: 'Características Principales',
+      features: [
+        'Análisis basado en varios escenarios',
+        'Predicciones de ventas y gastos mensuales',
+        'Cálculo del período de recuperación de la inversión',
+        'Generación de informes en formato PDF/JPG'
+      ]
     }
   },
   ja: {
@@ -133,6 +166,17 @@ export const translations = {
       loanPrincipal: '借入元金',
       loanInterest: '借入利息',
       initialInvestment: '初期投資'
+    },
+    serviceIntro: {
+      title: 'ビジネス収益性分析サービス',
+      description: 'あなたのビジネスアイデアが実際に利益を生み出せるかどうかを分析しましょう。平均価格、日次売上、材料費、管理費、ローン条件など、様々な要素を考慮してビジネスの収益性を予測します。',
+      featuresTitle: '主な機能',
+      features: [
+        '様々なシナリオに基づく分析',
+        '月次売上および支出予測',
+        '投資回収期間の計算',
+        'PDF/JPG形式でのレポート生成'
+      ]
     }
   }
 }; 

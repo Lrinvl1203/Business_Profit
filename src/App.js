@@ -263,7 +263,7 @@ function AppContent() {
         backgroundColor: 'rgba(255, 255, 255, 0.9)',
       }}
     >
-      <Typography variant="h6" gutterBottom sx={{ color: '#1d1d1f', fontWeight: 500 }}>
+      <Typography variant="h6" gutterBottom sx={{ color: '#2D6A4F', fontWeight: 500 }}>
         {title}
       </Typography>
       <Grid container spacing={2}>
@@ -292,10 +292,10 @@ function AppContent() {
               }}
               InputLabelProps={{
                 shrink: true,
-                sx: { color: '#1d1d1f' },
+                sx: { color: '#2D6A4F' },
               }}
               FormHelperTextProps={{
-                sx: { textAlign: 'right', color: '#86868b' }
+                sx: { textAlign: 'right', color: '#2D6A4F' }
               }}
               helperText={field !== 'loanInterest' && field !== 'dailySales' ? formatNumber(inputs[field]) : null}
             />
@@ -306,13 +306,83 @@ function AppContent() {
   );
 
   return (
-    <Container maxWidth="xl" sx={{ mt: 2, mb: 2, height: '100vh' }}>
+    <Container maxWidth="xl" sx={{ mt: 2, mb: 2, height: '100vh', bgcolor: '#F6ECA9' }}>
+      <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
+        <LanguageSelector />
+      </Box>
+
+      <Typography 
+        variant="h3" 
+        component="h1" 
+        align="center" 
+        gutterBottom 
+        sx={{ 
+          color: '#2D6A4F',
+          fontWeight: 700,
+          mb: 4,
+          fontSize: { xs: '1.8rem', md: '2.5rem' }
+        }}
+      >
+        {t('serviceIntro.title')}
+      </Typography>
+      
+      <Paper 
+        elevation={0} 
+        sx={{ 
+          p: 4, 
+          mb: 4, 
+          backgroundColor: '#2D6A4F',
+          borderRadius: 2,
+          color: '#F6ECA9'
+        }}
+      >
+        <Typography 
+          variant="h5" 
+          component="h2" 
+          sx={{ 
+            mb: 2,
+            fontWeight: 600,
+            color: '#F6ECA9'
+          }}
+        >
+          {t('serviceIntro.title')}
+        </Typography>
+        <Typography 
+          variant="body1" 
+          sx={{ 
+            mb: 3,
+            color: '#F6ECA9',
+            lineHeight: 1.6
+          }}
+        >
+          {t('serviceIntro.description')}
+        </Typography>
+
+        <Typography 
+          variant="h6" 
+          sx={{ 
+            mb: 2,
+            fontWeight: 600,
+            color: '#F6ECA9'
+          }}
+        >
+          {t('serviceIntro.featuresTitle')}
+        </Typography>
+        <Box sx={{ mb: 3 }}>
+          {t('serviceIntro.features', { returnObjects: true }).map((feature, index) => (
+            <Typography key={index} variant="body1" sx={{ mb: 1, color: '#F6ECA9' }}>
+              • {feature}
+            </Typography>
+          ))}
+        </Box>
+      </Paper>
+
       <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: { xs: 'center', md: 'center' }, flexDirection: { xs: 'column', md: 'row' }, mb: 2 }}>
         <Typography 
           variant="h4" 
           component="h1" 
           sx={{ 
-            color: '#1d1d1f',
+            color: '#2D6A4F',
             fontWeight: 600,
             fontSize: { xs: '1.5rem', md: '2rem' },
             textAlign: 'center',
@@ -354,7 +424,6 @@ function AppContent() {
           >
             {t('saveAsJPG')}
           </Button>
-          <LanguageSelector />
         </Box>
       </Box>
 
@@ -372,7 +441,7 @@ function AppContent() {
                 overflow: 'auto',
               }}
             >
-              <Typography variant="h6" gutterBottom sx={{ color: '#1d1d1f', fontWeight: 500 }}>
+              <Typography variant="h6" gutterBottom sx={{ color: '#2D6A4F', fontWeight: 500 }}>
                 {t('salesIncreaseScenario')}
               </Typography>
               <Grid container spacing={2}>
@@ -386,8 +455,11 @@ function AppContent() {
                     variant="outlined"
                     size="small"
                     inputProps={{ min: 0, max: 50, inputMode: 'numeric', pattern: '[0-9]*' }}
-                    InputLabelProps={{ shrink: true }}
+                    InputLabelProps={{ shrink: true, sx: { color: '#2D6A4F' } }}
                     helperText={t('increaseRateHelp')}
+                    FormHelperTextProps={{
+                      sx: { textAlign: 'right', color: '#2D6A4F' }
+                    }}
                   />
                 </Grid>
                 <Grid item xs={12} sm={6}>
@@ -400,8 +472,11 @@ function AppContent() {
                     variant="outlined"
                     size="small"
                     inputProps={{ min: 0, max: 50, inputMode: 'numeric', pattern: '[0-9]*' }}
-                    InputLabelProps={{ shrink: true }}
+                    InputLabelProps={{ shrink: true, sx: { color: '#2D6A4F' } }}
                     helperText={t('increaseRateHelp')}
+                    FormHelperTextProps={{
+                      sx: { textAlign: 'right', color: '#2D6A4F' }
+                    }}
                   />
                 </Grid>
               </Grid>
@@ -434,23 +509,23 @@ function AppContent() {
                     backgroundColor: 'rgba(255, 255, 255, 0.9)',
                   }}
                 >
-                  <Typography variant="h6" gutterBottom sx={{ color: '#1d1d1f', fontWeight: 500 }}>
+                  <Typography variant="h6" gutterBottom sx={{ color: '#2D6A4F', fontWeight: 500 }}>
                     {t('analysisResults')}
                   </Typography>
                   {['case1', 'case2', 'case3'].map((case_, index) => {
                     const monthlyProfit = results[case_].monthlySales - results[case_].monthlyTotalExpenses;
                     return (
                       <Box key={case_} sx={{ mb: 1 }}>
-                        <Typography variant="subtitle2" sx={{ color: '#1d1d1f', fontWeight: 500, fontSize: 14 }}>
+                        <Typography variant="subtitle2" sx={{ color: '#2D6A4F', fontWeight: 500, fontSize: 14 }}>
                           {index === 0 ? t('basicScenario') : `Case ${index + 1} (${scenarios[case_]}% ${t('increase')})`}
                         </Typography>
-                        <Typography variant="body2" sx={{ color: '#1d1d1f' }}>
+                        <Typography variant="body2" sx={{ color: '#2D6A4F' }}>
                           {t('monthlySales')}: {formatNumber(results[case_].monthlySales || 0)}
                         </Typography>
-                        <Typography variant="body2" sx={{ color: '#1d1d1f' }}>
+                        <Typography variant="body2" sx={{ color: '#2D6A4F' }}>
                           {t('monthlyTotalExpenses')}: {formatNumber(results[case_].monthlyTotalExpenses || 0)}
                         </Typography>
-                        <Typography variant="body2" sx={{ color: '#1d1d1f', fontWeight: 600 }}>
+                        <Typography variant="body2" sx={{ color: '#2D6A4F', fontWeight: 600 }}>
                           {t('monthlyNetProfit')}: {formatNumber(monthlyProfit || 0)}
                         </Typography>
                       </Box>
@@ -476,13 +551,13 @@ function AppContent() {
                   }}
                 >
                   <Box sx={{ width: { xs: '100%', md: '50%' }, height: { xs: 200, md: 240 } }}>
-                    <Typography variant="subtitle1" sx={{ color: '#1d1d1f', mb: 1, fontSize: { xs: 14, md: 15 } }}>
+                    <Typography variant="subtitle1" sx={{ color: '#2D6A4F', mb: 1, fontSize: { xs: 14, md: 15 } }}>
                       {t('monthlySalesAndExpenses')}
                     </Typography>
                     <Bar data={barChartData} options={{ ...chartOptions, plugins: { ...chartOptions.plugins, legend: { display: false } }, maintainAspectRatio: false, aspectRatio: 1.2, }} />
                   </Box>
                   <Box sx={{ width: { xs: '100%', md: '50%' }, height: { xs: 200, md: 240 } }}>
-                    <Typography variant="subtitle1" sx={{ color: '#1d1d1f', mb: 1, fontSize: { xs: 14, md: 15 } }}>
+                    <Typography variant="subtitle1" sx={{ color: '#2D6A4F', mb: 1, fontSize: { xs: 14, md: 15 } }}>
                       {t('monthlyNetProfitTrend')}
                     </Typography>
                     <Line data={lineChartData} options={{ ...chartOptions, plugins: { ...chartOptions.plugins, legend: { display: false } }, maintainAspectRatio: false, aspectRatio: 1.2, }} />
@@ -507,13 +582,13 @@ function AppContent() {
                   }}
                 >
                   <Box sx={{ width: { xs: '100%', md: '55%' }, height: { xs: 200, md: 180 }, display: { xs: 'none', md: 'block' } }}>
-                    <Typography variant="subtitle1" sx={{ color: '#1d1d1f', mb: 1, fontSize: 15 }}>
+                    <Typography variant="subtitle1" sx={{ color: '#2D6A4F', mb: 1, fontSize: 15 }}>
                       {t('integratedAnalysis')}
                     </Typography>
                     <Bar data={combinedChartData} options={{ ...chartOptions, plugins: { ...chartOptions.plugins, legend: { display: false } }, maintainAspectRatio: false, aspectRatio: 1.2, }} />
                   </Box>
                   <Box sx={{ width: { xs: '100%', md: '45%' }, height: { xs: 'auto', md: 180 }, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-                    <Typography variant="subtitle1" sx={{ color: '#1d1d1f', mb: 1, fontSize: 15 }}>
+                    <Typography variant="subtitle1" sx={{ color: '#2D6A4F', mb: 1, fontSize: 15 }}>
                       {t('investmentRecoveryPeriod')}
                     </Typography>
                     <Grid container spacing={1}>
@@ -527,10 +602,10 @@ function AppContent() {
                         return (
                           <Grid item xs={12} sm={4} key={case_}>
                             <Paper sx={{ p: 1, bgcolor: 'rgba(255,255,255,0.95)', borderRadius: 2, boxShadow: '0 2px 8px rgba(0,0,0,0.05)', textAlign: 'center' }}>
-                              <Typography variant="subtitle2" sx={{ color: '#1d1d1f', fontWeight: 500, fontSize: 14 }}>
+                              <Typography variant="subtitle2" sx={{ color: '#2D6A4F', fontWeight: 500, fontSize: 14 }}>
                                 {index === 0 ? t('basicScenario') : `${scenarios[case_]}% ${t('increase')}`}
                               </Typography>
-                              <Typography sx={{ color: '#1d1d1f', fontSize: '1.1rem', mt: 0.5 }}>
+                              <Typography sx={{ color: '#2D6A4F', fontSize: '1.1rem', mt: 0.5 }}>
                                 {isFinite(monthsToRecover) 
                                   ? `${years}${t('years')} ${months}${t('months')}` 
                                   : t('calculationNotPossible')} {emoji}

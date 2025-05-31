@@ -307,7 +307,14 @@ function AppContent() {
   );
 
   return (
-    <Container maxWidth="xl" sx={{ mt: 2, mb: 2, height: '100vh', bgcolor: '#F6ECA9' }}>
+    <Container maxWidth="xl" sx={{ 
+      mt: 2, 
+      mb: 2, 
+      minHeight: '100vh',
+      bgcolor: '#F6ECA9',
+      display: 'flex',
+      flexDirection: 'column'
+    }}>
       <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
         <LanguageSelector />
       </Box>
